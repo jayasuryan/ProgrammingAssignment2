@@ -11,7 +11,7 @@ makeCacheMatrix <- function(x = matrix()) {
     #' @examples
     #' B_cache = makeCacheMatrix(B) 
     #'   
-       matinv <- NULL
+    matinv <- NULL
     set <- function(y) {
         x <<- y
         matinv <<- NULL
